@@ -1,0 +1,42 @@
+.todo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 200px;
+    padding: 10px;
+    border-radius: 10px;
+    border: solid 1px;
+    gap: 10px;
+}
+.todo__task{
+    font-weight: 700;
+    color: rgb(7, 5, 139);
+    cursor: pointer;
+}
+.todo__description{
+    border-top: solid rgb(182, 182, 182) 1px;
+    margin-top: 10px;
+    cursor: pointer;
+    min-height: 10px;
+}
+.todo__description textarea{
+    width: 100%;
+}
+.todo__menu{
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    border-top: solid rgb(182, 182, 182) 1px;
+    gap: 10px;
+}
+.todo__menu_status{
+    list-style: none;
+    cursor: pointer;    
+}
+.todo__menu_status:hover{
+    color:aqua;   
+}
+.todo__menu_button{
+    border: none;
+    cursor: pointer;
+}
